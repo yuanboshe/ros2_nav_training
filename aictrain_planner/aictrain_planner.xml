@@ -1,0 +1,5 @@
+<library path="aictrain_planner">
+    <class name="aictrain_planner/TrainPlanner" type="aictrain_planner::TrainPlanner" base_class_type="nav2_core::GlobalPlanner">
+        <description>An implementation of the aicrobo training planner</description>
+    </class>
+</library>
