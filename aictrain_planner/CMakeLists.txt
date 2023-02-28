@@ -36,7 +36,7 @@ install(DIRECTORY include/ DESTINATION include/)
 
 install(FILES aictrain_planner.xml DESTINATION share/${PROJECT_NAME})
 
-# install(DIRECTORY launch maps DESTINATION share/${PROJECT_NAME})
+install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
